@@ -1,0 +1,2 @@
+# Lock-file ignored to have up-to-date dependencies
+template/pnpm-lock.yaml

@@ -1,0 +1,19 @@
+{
+  "include": ["./src/*.ts"],
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.cache/ts/tsconfig.app.tsbuildinfo",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2020"],
+    "noEmit": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "moduleDetection": "force",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}

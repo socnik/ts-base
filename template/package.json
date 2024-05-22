@@ -14,7 +14,7 @@
     "node": ">=20",
     "pnpm": ">=9"
   },
-  "prettier": "https://github.com/socnik/my-prettier-config",
+  "prettier": "@socnik/my-prettier-config",
   "devDependencies": {
     "@socnik/my-prettier-config": "1.0.6",
     "prettier": "3.2.5",
